@@ -205,3 +205,134 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code config
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# YAML data files (original input)
+data/**/*.yaml
+
+# CSV outputs (generated files)
+CSV_data/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MySQL/PostgreSQL dumps (if exported manually)
+*.sql
+*.dump
+
+# Python environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Power BI temporary files
+*.pbix~
+
+
+python3 -m venv .venv
+source .venv/bin/activate  # For macOS/Linux
+# OR
+.venv\Scripts\activate     # For Windows
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtualenv and pipenv
+.env/
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# VSCode settings
+.vscode/
+.history
+
+# PyCharm settings
+.idea/
+*.iml
+
+# MacOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Data outputs (keep if you want to version-control your data!)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI files
+*.pbix
+
+# Streamlit cache
+.streamlit/
+
+# Sector and master data files (remove these lines if you want to commit them)
+cleaned_master_stock_data.csv
+Sector_data - Sheet1.csv
+stock_correlation_matrix.csv
+
+# Misc
+*.zip
+*.tar
+*.gz
+*.bak
+*.tmp
