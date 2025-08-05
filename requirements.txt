@@ -10,3 +10,4 @@ jupyterlab
 streamlit
 plotly
 cryptography
+openpyxl
